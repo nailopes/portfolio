@@ -269,6 +269,7 @@ header {
             "img title"
             "img subtitle";
         grid-template-columns: min-content max-content;
+        
     }
     
     .intro__img {
@@ -400,6 +401,8 @@ header {
 }
 
 .portfolio__img {
+    display: inline-block;
+    block-size: 20em;
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
@@ -475,4 +478,9 @@ header {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.clickhere :hover {
+    transform: scale(1.1);
+ 
 }
