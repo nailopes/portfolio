@@ -1,0 +1,2 @@
+(this.webpackJsonpportfolio=this.webpackJsonpportfolio||[]).push([[0],[function(o,n,e){o.exports=e(1)},function(o,n){var e=document.querySelector(".nav-toggle"),t=document.querySelectorAll(".nav__link");e.addEventListener("click",(function(){document.body.classList.toggle("nav-open")})),t.forEach((function(o){o.addEventListener("click",(function(){document.body.classList.remove("nav-open")}))}))}],[[0,1]]]);
+//# sourceMappingURL=main.28b7e6f2.chunk.js.map
